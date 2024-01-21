@@ -1,0 +1,28 @@
+import React from "react"
+import PropTypes from "prop-types"
+import { useSiteMetadata } from "../hooks/use-site-metadata"
+
+export const Seo = ({ title, description, pathname, children }) => {
+    const { title: defaultTitle, description: defaultDescription, siteUrl } = useSiteMetadata()
+
+    const seo = {
+        title: title || defaultTitle,
+        description: description || defaultDescription,
+        url: `${siteUrl}${pathname || ``}`,
+    }
+
+    return (
+        <>
+            <title>{seo.title}</title>
+            <meta name="description" content={seo.description} />
+            {children}
+        </>
+    )
+}
+
+Seo.propTypes = {
+    title: PropTypes.string,
+    description: PropTypes.string,
+    pathname: PropTypes.string,
+    children: PropTypes.node
+}
