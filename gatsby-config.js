@@ -5,7 +5,8 @@ module.exports = {
   siteMetadata: {
     title: `KCD - Karlia Carty-Dinnall`,
     description: `Attorney-at-Law & Mediator Specializing in Divorce, Estate Planning, Property Sales & Purchases, Personal Injury, Adoption`,
-    author: `Dwayne Edwards`
+    author: `Dwayne Edwards`,
+    image: `../images/logo.png`
   },
   plugins: [
     `gatsby-plugin-image`,

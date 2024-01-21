@@ -6,11 +6,11 @@ import { message } from "../components/contact.module.css"
 const Contact = () => {
     return (
         <Layout>
-            <div className="container-fluid py-4">
-                <div className="row bg-dark text-white-50">
-                    <h4>Contact</h4>
-                </div>
+            <div className="container-fluid py-4">              
                 <div className="container">
+                    <div className="row bg-dark text-white-50">
+                        <h4>Contact</h4>
+                    </div>
                     <div className="row py-4">
                         <form className="row g-3">
                             <div className="col-md-4">
@@ -30,7 +30,7 @@ const Contact = () => {
                                 <textarea className={"form-control " + message} placeholder="Enter message here" id="message" required></textarea>                                
                             </div>
                             <div className="col-12">
-                                <button className="btn btn-primary" type="submit">Send</button>
+                                <button className="btn btn-warning" type="submit">Send</button>
                             </div>
                         </form>
                     </div>

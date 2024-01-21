@@ -4,11 +4,11 @@ import Layout from "../components/layout"
 const About = () => {
     return (
         <Layout>
-            <div className="container-fluid py-4">
-                <div className="row bg-dark text-white-50">
-                    <h4>About</h4>
-                </div>
+            <div className="container-fluid py-4">                
                 <div className="container">
+                    <div className="row bg-dark text-white-50">
+                        <h4>About</h4>
+                    </div>
                     <div className="row py-4">
                         <h5>Professional Experience</h5>
                         <ul className="list-group list-group-flush">

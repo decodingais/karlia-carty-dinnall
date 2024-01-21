@@ -34,8 +34,8 @@ const Navbar = () => {
               <ExactNavLink to="/contact">Contact</ExactNavLink>
             </li>
           </ul>
-          <div className="d-flex" role="search">
-             <button className="btn btn-warning" type="submit">Book Consultation</button>
+          <div className="d-flex" role="search">             
+             <ExactNavLink to="/contact"><button className="btn btn-warning" type="submit">Book Consultation</button></ExactNavLink>
           </div>
         </div>
       </div>

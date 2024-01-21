@@ -1,9 +1,11 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import { Seo } from "../components/seo"
 import { title, profile, credit } from "../components/index.module.css"
+
 
 const IndexPage = () => (
   <Layout>
@@ -34,7 +36,7 @@ const IndexPage = () => (
                 <li className="list-group-item">Marital Property Disputes</li>
                 <li className="list-group-item">Family Law Litigation</li>
               </ul>
-              <a href="/" className="btn btn-dark text-white-50">Book Consultation</a>
+              <Link to="/contact"><button className="btn btn-dark text-white-50" type="submit">Book Consultation</button></Link>
             </div>
           </div>
         </div>
@@ -50,7 +52,7 @@ const IndexPage = () => (
                 <li className="list-group-item">Demand Letters & Notices</li>
                 <li className="list-group-item">Other General Legal Services</li>
               </ul>
-              <a href="/" className="btn btn-dark text-white-50">Book Consultation</a>
+              <Link to="/contact"><button className="btn btn-dark text-white-50" type="submit">Book Consultation</button></Link>
             </div>
           </div> 
         </div>
@@ -66,7 +68,7 @@ const IndexPage = () => (
                 <li className="list-group-item">Personal Injury</li>
                 <li className="list-group-item">Breach of Contract</li>                
               </ul>
-              <a href="/" className="btn btn-dark text-white-50">Book Consultation</a>
+              <Link to="/contact"><button className="btn btn-dark text-white-50" type="submit">Book Consultation</button></Link>
             </div>
           </div>
         </div>
@@ -82,7 +84,7 @@ const IndexPage = () => (
                 <li className="list-group-item">Land & Property Disputes</li>
                 <li className="list-group-item">Landlord & Tenant Disputes</li>
               </ul>
-              <a href="/" className="btn btn-dark text-white-50">Book Consultation</a>
+              <Link to="/contact"><button className="btn btn-dark text-white-50" type="submit">Book Consultation</button></Link>
             </div>
           </div>
         </div>
