@@ -8,6 +8,9 @@ export const useSiteMetadata = () => {
             title
             description
             author
+            image
+            siteUrl
+            instagramUsername
           }
       }
     }

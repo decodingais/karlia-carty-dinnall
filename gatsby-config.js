@@ -6,7 +6,9 @@ module.exports = {
     title: `KCD - Karlia Carty-Dinnall`,
     description: `Attorney-at-Law & Mediator Specializing in Divorce, Estate Planning, Property Sales & Purchases, Personal Injury, Adoption`,
     author: `Dwayne Edwards`,
-    image: `../images/logo.png`
+    image: `/logo.png`,
+    siteUrl: `https://karlia-carty-dinnall.netlify.app`,
+    instagramUsername: `@cartydinnall`
   },
   plugins: [
     `gatsby-plugin-image`,
