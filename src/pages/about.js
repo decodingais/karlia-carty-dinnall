@@ -10,72 +10,27 @@ const About = () => {
                         <h4>About</h4>
                     </div>
                     <div className="row py-4">
-                        <h5>Professional Experience</h5>
-                        <ul className="list-group list-group-flush">
-                            <li className="list-group-item d-flex justify-content-between align-items-start">
-                                <div className="ms-2 me-auto">
-                                    <div className="fw-bold">Associate Attorney-At-Law</div>
-                                    Nicholson Phillips, Attorneys-at-Law
-                                </div> 
-                                <span className="badge bg-light">&#9989;</span>
-                            </li>
-                            <li className="list-group-item d-flex justify-content-between align-items-start">
-                                <div className="ms-2 me-auto">
-                                    <div className="fw-bold">Associate Attorney-At-Law</div>
-                                    Victoria W Brown & Associates
-                                </div> 
-                                <span className="badge bg-light">&#9989;</span>
-                            </li>                           
-                            <li className="list-group-item d-flex justify-content-between align-items-start">
-                                <div className="ms-2 me-auto">
-                                    <div className="fw-bold">Judicial Clerkship</div>
-                                    Court of Appeal and St Catherine Parish Court (Spanish Town, Old Harbour, Linstead and Portmore)
-                                </div> 
-                                <span className="badge bg-light">&#9989;</span>
-                            </li> 
-                            <li className="list-group-item d-flex justify-content-between align-items-start">
-                                <div className="ms-2 me-auto">
-                                    <div className="fw-bold">Intern/ Legal Assistant </div>
-                                    Victoria W Brown & Associates
-                                </div> 
-                                <span className="badge bg-light">&#9989;</span>
-                            </li>                           
-                        </ul>
-                    </div>
-                    <div className="row py-4">
-                        <h5>Associations</h5>
-                        <ul className="list-group list-group-flush">
-                            <li className="list-group-item d-flex justify-content-between align-items-start">
-                                <div className="ms-2 me-auto">
-                                    <div className="fw-bold">The Jamaica Bar Association</div>
-                                </div> 
-                                <span className="badge bg-light">&#9989;</span>
-                            </li>
-                            <li className="list-group-item d-flex justify-content-between align-items-start">
-                                <div className="ms-2 me-auto">
-                                    <div className="fw-bold">Continuing Legal Professional Development (CLPD) Committee</div>
-                                </div> 
-                                <span className="badge bg-light">&#9989;</span>
-                            </li>                           
-                            <li className="list-group-item d-flex justify-content-between align-items-start">
-                                <div className="ms-2 me-auto">
-                                    <div className="fw-bold">Moderator at Annual November Conference 2021 on Labour Laws & Mandatory Vaccines, with presenters- Mr. Emile Leiba and Mrs. Carla-Anne Harris-Roper</div>
-                                </div> 
-                                <span className="badge bg-light">&#9989;</span>
-                            </li>                  
-                        </ul>
-                    </div>
-                    <div className="row py-4">
-                        <h5>Cerfitications</h5>
-                        <ul className="list-group list-group-flush">
-                            <li className="list-group-item d-flex justify-content-between align-items-start">
-                                <div className="ms-2 me-auto">
-                                    <div className="fw-bold">Mediator</div>
-                                    Dispute Resolution Foundation
-                                </div> 
-                                <span className="badge bg-light">&#9989;</span>
-                            </li>         
-                        </ul>
+                        <div><span><b>Karlia Carty-Dinnall</b></span> is committed to helping all clients achieve their goals, by ensuring
+                        she is consistently client focused &amp; results driven, ensuring that her commitment to
+                        providing quality legal services are at the highest standard.
+                        </div>                        
+                        <div>
+                            <h6>Education:</h6>
+                            <ul>
+                                <li>Norman Manley Law School: Legal Education Certificate (LEC)</li>
+                                <li>University of West Indies, Mona Jamaica: Bacheor of Laws (LLB), Second-Class Honours</li>
+                                <li>University of Technology, Jamaica: Bsc. In Business Administration, Second-Class Honours</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h6>Experiences:</h6>
+                            <ul>
+                                <li>Junior Counsel to Victoria Brown</li>
+                                <li>Consultant to Victoria Brown and Associates., Attorneys-at-Law</li>
+                                <li>Judicial Clerk at the Spanish Town Parish Court and Court of Appeal</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>                
             </div>

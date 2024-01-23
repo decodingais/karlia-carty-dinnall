@@ -22,7 +22,7 @@ const IndexPage = () => (
       <div className="row bg-dark text-white-50">
           <h4 id="practice">Specializations</h4>
       </div>
-      <div className="row py-4">
+      <div className="row py-4 mb-5">
         <div className="col-lg-3 col-md-4 mx-auto">
           <div className="card">
             <div className="card-header bg-warning fw-bold">Divorce</div>
