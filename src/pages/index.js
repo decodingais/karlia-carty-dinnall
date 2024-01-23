@@ -52,9 +52,9 @@ const IndexPage = () => (
             <StaticImage src="../images/litigation.jpg" class="card-img-top" alt="Image of court room"/>
             <div className="card-body">
               <ul className="list-group list-group-flush py-2">
-                <li className="list-group-item">Citations</li> 
-                <li className="list-group-item">Drafting of Wills</li>
+                <li className="list-group-item">Citations</li>                 
                 <li className="list-group-item">Grant of Probate</li>
+                <li className="list-group-item">Drafting of Wills</li>
                 <li className="list-group-item">Letters of Administration</li>                               
               </ul>
               <Link to="/contact"><button className="btn btn-dark text-white-50" type="submit">Book Consultation</button></Link>
@@ -68,10 +68,10 @@ const IndexPage = () => (
             <div className="card-body">
             <ul className="list-group list-group-flush py-2">
                 <li className="list-group-item">Divorce</li>
-                <li className="list-group-item">Custody</li>                
-                <li className="list-group-item">Division of Property Rights</li>
+                <li className="list-group-item">Custody</li>    
                 <li className="list-group-item">Child Maintenance</li>
                 <li className="list-group-item">Spousal Maintenance</li> 
+                <li className="list-group-item">Division of Property Rights</li>
               </ul>
               <Link to="/contact"><button className="btn btn-dark text-white-50" type="submit">Book Consultation</button></Link>
             </div>
@@ -83,11 +83,12 @@ const IndexPage = () => (
             <StaticImage src="../images/legal-services.jpg" class="card-img-top" alt="Image of lady justice"/>
             <div className="card-body">
               <ul className="list-group list-group-flush py-2">
+                
+                <li className="list-group-item">Personal Injury</li> 
+                <li className="list-group-item">Landlord &amp; Tenant</li>                              
                 <li className="list-group-item">Labour &amp; Employment</li>
-                <li className="list-group-item">Landlord &amp; Tenant</li>
-                <li className="list-group-item">Personal Injury</li>                
-                <li className="list-group-item">Power of Attorney Deeds</li>
-                <li className="list-group-item">Partnership Agreements</li>
+                <li className="list-group-item">Partnership Agreements</li>              
+                <li className="list-group-item">Power of Attorney Deeds</li>  
                 <li className="list-group-item">Drafting of Contracts and Deeds</li>
               </ul>
               <Link to="/contact"><button className="btn btn-dark text-white-50" type="submit">Book Consultation</button></Link>
@@ -105,7 +106,7 @@ const IndexPage = () => (
                 <li className="list-group-item">Adverse Possession</li>                
                 <li className="list-group-item">Registration of Title</li>
                 <li className="list-group-item">Property Development</li>
-                <li className="list-group-item">Restrictive Covenants and Modifications</li>
+                <li className="list-group-item">Restrictive Covenants & Modifications</li>
                 <li className="list-group-item">Land Title Matters including Lost Title Applications</li>     
               </ul>
               <Link to="/contact"><button className="btn btn-dark text-white-50" type="submit">Book Consultation</button></Link>
