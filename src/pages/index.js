@@ -32,13 +32,13 @@ const IndexPage = () => (
         <div className="col-lg-3 col-md-4 mx-auto">
           <div className="card">
             <div className="card-header bg-warning fw-bold">Property Sales & Purchases</div>
-            <StaticImage src="../images/real_estate_legal.jpg" class="card-img-top" alt="Image of family"/>
+            <StaticImage src="../images/real_estate_legal.jpg" class="card-img-top" alt="Image of house with gavel and hammer"/>
           </div>
         </div>
         <div className="col-lg-3 col-md-4 mx-auto">
           <div className="card">
             <div className="card-header bg-warning fw-bold">Probate & Administration of Estate</div>
-            <StaticImage src="../images/probate.jpg" class="card-img-top" alt="Image of family"/>
+            <StaticImage src="../images/probate.jpg" class="card-img-top" alt="Image of note with do you need a lawyer written on it"/>
           </div>
         </div>
       </div>
