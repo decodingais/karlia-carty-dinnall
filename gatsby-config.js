@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `KCD - Karlia Carty-Dinnall`,
-    description: `Attorney-at-Law & Mediator Specializing in Divorce, Estate Planning, Property Sales & Purchases, Personal Injury, Adoption`,
+    description: `Attorney-at-Law & Mediator Specializing in Divorce, Estate Planning, Property Sales & Purchases, Personal Injury, Adoption. Open Monday - Thursday 9-5pm and Friday 9-4:30pm`,
     author: `Dwayne Edwards`,
     image: `/icons/icon-72x72.png`,
     siteUrl: `https://karlia-carty-dinnall.netlify.app`,
