@@ -69,8 +69,7 @@ const IndexPage = () => (
             <ul className="list-group list-group-flush py-2">
                 <li className="list-group-item">Divorce</li>
                 <li className="list-group-item">Custody</li>                
-                <li className="list-group-item">Division</li>
-                <li className="list-group-item">Property Rights</li>
+                <li className="list-group-item">Division of Property Rights</li>
                 <li className="list-group-item">Child Maintenance</li>
                 <li className="list-group-item">Spousal Maintenance</li> 
               </ul>
@@ -84,10 +83,8 @@ const IndexPage = () => (
             <StaticImage src="../images/legal-services.jpg" class="card-img-top" alt="Image of lady justice"/>
             <div className="card-body">
               <ul className="list-group list-group-flush py-2">
-                <li className="list-group-item">Injunctions</li>
                 <li className="list-group-item">Labour &amp; Employment</li>
                 <li className="list-group-item">Landlord &amp; Tenant</li>
-                <li className="list-group-item">Construction</li>
                 <li className="list-group-item">Personal Injury</li>                
                 <li className="list-group-item">Power of Attorney Deeds</li>
                 <li className="list-group-item">Partnership Agreements</li>
