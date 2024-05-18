@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.vl {
+    border-left: 1px solid #8c8d8c;
+    height: 8%;
+    position: absolute;
+}
+
+.solid {
+    margin: auto;
+    border-top: 5px solid #8c8d8c;
+}
+
+.menu-link:hover .solid {
+    border-top: 5px solid #D1B745;
+}
+
+.menu-link:hover .overlay {
+    opacity: 0;
+}
+
+.menu-link:hover .overlay-hover {
+    opacity: 1;
+}
+
+.menu-link:hover .underlay {
+    padding-top: 2%;
+}
+
+.menu-link {
+    transition: transform 1s;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-text {
+    padding-top: 220%;
+    z-index: 100;
+}
+
+.menu-icon {
+    position: absolute;
+    padding-top: 175%;
+    padding-left: 40%;
+    z-index: 100;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    opacity: 1;
+}
+
+.overlay-hover {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    padding-top: 45%;
+    opacity: 0;
+}
+
+.underlay {
+    position: absolute;
+}
